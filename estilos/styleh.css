@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.formzera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body{
+   background-color: white; 
+}   
+
+main{
+    min-height: calc(100vh - 100px); /* altura mínima é a altura da viewport (100vh) menos 100px para o footer */
+}
+
+@font-face {
+    font-family: 'RTL Adam Script';
+    src: local('RTL Adam Script Light'), local('RTL-Adam-Script-Light'),
+        url('RTL-AdamScript-Light.woff2') format('woff2'),
+        url('RTL-AdamScript-Light.woff') format('woff'),
+        url('RTL-AdamScript-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal; 
+  }
+
+input{
+    flex-grow: 2;
+    background-color: white;
+    margin: 0px 50px;
+    font-family: 'RTL Adam Script', sans-serif;
+    font-size: 25px;
+}
+
+.pesquisa{
+    max-width: 258px;
+    max-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.button{
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .fut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+  }
+
+.imgf{
+    height: 80px;
+}
+
