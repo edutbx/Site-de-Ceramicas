@@ -1,27 +1,40 @@
 <style>
-    *{
-        margin:0;
-        padding:0;
+    * {
+        margin: 0;
+        padding: 0;
     }
 
-    .fotos{
-        display:flex;
-        flex
+
+    .main-fotos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0px 68px;
+        margin-right: 5px;
     }
 
-    .main-fotos{
-        width: calc(100% / 4 -20px);
-        align-items:center;
-        margin:10px;
-        background-color: red;
+    .foto{
+        margin-top: 30px;
     }
 </style>
 
 <main>
     <div class="main-fotos">
-       <div class="fotos">
-        <img src="img/bonecos.jpg" alt="bonecos">
-        <img src="img/logo.svg" alt="logo">
-       </div>
+            <section class="foto">
+            <img src="img/bonecos.jpg" alt="bonecos" width="100px" height="100px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/copos.jpg" alt="coposecos" width="100px" height="100px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/logo.svg" alt="logo" width="100px" height="100px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/bonecos.jpg" alt="bonecos" width="100px" height="100px">
+            <p>teste</p>
+            </section>
     </div>
 </main>

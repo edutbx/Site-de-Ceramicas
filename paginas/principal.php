@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
             <div class="div1">
             </div>
             <div class="div2">
-                <img src="img/bonecos.JPG" alt="vou mudar a foto" class="oi">
+                <img src="img/copos.JPG" alt="vou mudar a foto" width="100%" height="100%">
             </div>
         </div>
 
