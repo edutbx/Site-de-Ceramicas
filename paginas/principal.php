@@ -15,7 +15,7 @@
             <div class="div1">
             </div>
             <div class="div2">
-                <img src="img/copos.JPG" alt="vou mudar a foto" width="100%" height="100%">
+                <img src="img/copos.JPG" alt="copos" width="100%" height="100%">
             </div>
         </div>
 
