@@ -1,39 +1,46 @@
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    .main-fotos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 0px 190px;
-        margin-right: 170px;
+    .foto:hover{
+        box-shadow: 0px 0px 100px red;
+        rotate: 360deg;
     }
 
     .foto{
-        margin-top: 30px;
+        transition: 0.5s;
     }
 </style>
 
 <main>
-    <div class="main-fotos">
+    <div class="mains">
             <section class="foto">
-            <img src="img/colar1.jpg" alt="colar1" width="180px" height="200px">
+            <img src="img/colar1.jpg" alt="colar1" width="200px" height="220px">
             <p>teste</p>
             </section>
             <section class="foto">
-            <img src="img/colar2.jpg" alt="colar2" width="180px" height="200px">
+            <img src="img/colar2.jpg" alt="colar2" width="200px" height="220px">
             <p>teste</p>
             </section>
             <section class="foto">
-            <img src="img/colar3.jpg" alt="colar3" width="180px" height="200px">
+            <img src="img/colar3.jpg" alt="colar3" width="200px" height="220px">
             <p>teste</p>
             </section>
             <section class="foto">
-            <img src="img/bonecos.jpg" alt="bonecos" width="180px" height="200px">
+            <img src="img/bonecos.jpg" alt="bonecos" width="200px" height="220px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/bonecos.jpg" alt="bonecos" width="200px" height="220px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/bonecos.jpg" alt="bonecos" width="200px" height="220px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/bonecos.jpg" alt="bonecos" width="200px" height="220px">
+            <p>teste</p>
+            </section>
+            <section class="foto">
+            <img src="img/bonecos.jpg" alt="bonecos" width="200px" height="220px">
             <p>teste</p>
             </section>
     </div>

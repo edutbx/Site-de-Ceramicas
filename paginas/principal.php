@@ -13,13 +13,14 @@
     <main>
         <div class="container">
             <div class="div1">
+                <p>mensagem super daora aqui</p>
             </div>
             <div class="div2">
                 <img src="img/copos.JPG" alt="copos" width="100%" height="100%">
             </div>
         </div>
 
-    fjsdafhsghsighsdfg
+        AAAAAAAAAA
     </main>
 </body>
 
