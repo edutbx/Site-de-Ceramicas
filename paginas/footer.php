@@ -1,5 +1,5 @@
     <footer>
-        <div class="fut">
+        <div class="main-fut">
             <div class="esquerda">
                 <p>fale com nois pelo zap</p><br><br>
                 <p>segue nois no insta</p>
