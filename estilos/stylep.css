@@ -1,18 +1,17 @@
 .container{
     display: flex;
+    justify-content: end;
     flex-direction: row;
+    height: auto;
+    background-color:#5ea083 ;
 }
 
 .div1{
-    background-color:#5ea083 ;
-    width: 50%;
-    height: 300px;
-    border: 1px solid black;
+    width: 56%;
+    border: 0px solid black;
 }
 
 .div2{
     background-color: aqua ;
-    width: 50%;
-    height: 300px;
-    border: 1px solid black;
+    width: auto;
 }
