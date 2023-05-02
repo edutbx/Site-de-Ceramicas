@@ -1,33 +1,34 @@
-@media (max-width: 414px){
-    header{
-       background-color: aliceblue;
+@media (max-width: 414px) {
+    header {
+        background-color: aliceblue;
     }
 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     border-bottom: 2px solid black;
     padding: 10px;
 }
 
-.formzera{
+.formzera {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0px 190px;
 }
 
-body{
-   background-color: white; 
-}   
+body {
+    background-color: white;
+}
 
-main{
-    min-height: calc(100vh - 100px); /* altura mínima é a altura da viewport (100vh) menos 100px para o footer */
+main {
+    min-height: calc(100vh - 100px);
+    /* altura mínima é a altura da viewport (100vh) menos 100px para o footer */
 }
 
 @font-face {
@@ -37,10 +38,10 @@ main{
         url('RTL-AdamScript-Light.woff') format('woff'),
         url('RTL-AdamScript-Light.ttf') format('truetype');
     font-weight: 300;
-    font-style: normal; 
-  }
+    font-style: normal;
+}
 
-input{
+input {
     flex-grow: 2;
     background-color: white;
     margin: 0px 10px;
@@ -48,7 +49,7 @@ input{
     font-size: 25px;
 }
 
-.pesquisa{
+.pesquisa {
     width: 258px;
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,13 +58,13 @@ input{
 
 }
 
-.button{
+.button {
     border: 0px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
 }
 
-.button:hover{
-    background-color: aquamarine;
+.button:hover {
+    background-color: #AFEEEE;
     cursor: pointer;
 }
 
@@ -75,17 +76,18 @@ footer {
     color: white;
     text-align: center;
     border: 1px solid black;
-  }
+}
 
-  .fut{
+.main-fut {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: black;
-  }
+}
 
-.imgf{
+.imgf {
     height: 80px;
+    margin-top: 15px;
 }
 
 .mains {
@@ -93,14 +95,14 @@ footer {
     margin-right: 190px;
     margin-left: 200px;
     margin-top: 30px;
-    
+
 }
 
-.esquerda p{
+.esquerda p {
     border-bottom: 2px solid black;
 }
 
-.linha{
+.linha {
     border-bottom: 2px solid black;
 }
 
@@ -113,4 +115,11 @@ footer {
     border: 1px solid black;
     margin-bottom: 10px;
     text-align: center;
+    transition-duration: 0.1s;
+}
+
+.foto:hover {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: white;
 }
