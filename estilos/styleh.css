@@ -89,10 +89,6 @@ footer {
 }
 
 .mains {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     margin: 0px 190px;
     margin-right: 190px;
     margin-left: 200px;
@@ -106,4 +102,15 @@ footer {
 
 .linha{
     border-bottom: 2px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
 }
