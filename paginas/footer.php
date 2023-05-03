@@ -1,18 +1,38 @@
     <footer>
         <div class="main-fut">
             <div class="esquerda">
-                <p>fale com nois pelo zap</p><br><br>
-                <p>segue nois no insta</p>
+                <div class="item">
+                    <p class="linha">Fale conosco</p>
+                    <p> 1 linha</p>
+                    <p> 2 linha</p>
+                    <p> 3 linha</p>
+                </div>
+                <div class="item">
+                    <p class="linha">Redes Sociais</p>
+                    <p> 1 linha</p>
+                    <p> 2 linha</p>
+                    <p> 3 linha</p>
+                </div>
             </div>
-            <img src="img/logo.svg" class="imgf">
+            <div class="meio">
+                <img src="img/logo.svg" class="imgf">
+            </div>
             <div class="direita">
-                <p class="linha">sobre</p>
-                <p> 1 linha</p>
-                <p> 2 linha</p>
-                <p> 3 linha</p><br>
-                <p class="linha">manda o pix pra fortalecer oscria</p>
+                <div class="item">
+                    <p class="linha">Sobre</p>
+                    <p> 1 linha</p>
+                    <p> 2 linha</p>
+                    <p> 3 linha</p>
+                </div>
+                <div class="item">
+                    <p class="linha">Incentive-nos</p>
+                    <p> 1 linha</p>
+                    <p> 2 linha</p>
+                    <p> 3 linha</p>
+                </div>
             </div>
         </div>
+        <p class="end">Endereço blá blá blá</p>
     </footer>
 
 </body>

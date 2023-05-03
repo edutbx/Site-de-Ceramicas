@@ -12,7 +12,7 @@
 }
 
 header {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
     padding: 10px;
 }
 
@@ -70,25 +70,25 @@ input {
 }
 
 footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 40px 20px 40px;
     left: 0;
     bottom: 0;
-    width: 100%;
     background-color: white;
-    color: white;
-    text-align: center;
-    border-top: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-top: 3px solid black;
 }
 
 .main-fut {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     color: black;
 }
 
 .imgf {
-    height: 80px;
-    margin-top: 15px;
+    height: 120px;
 }
 
 .mains {
@@ -99,12 +99,24 @@ footer {
 
 }
 
-.esquerda p {
-    border-bottom: 2px solid black;
+.esquerda {
+    height: 300px;
+    width: 300px;
+}
+
+.direita {
+    height: 300px;
+    width: 300px;
+}
+
+.item {
+    height: 150px;
 }
 
 .linha {
     border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .row {
@@ -123,4 +135,9 @@ footer {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     background-color: white;
+}
+
+.end {
+    padding: 10px 0px;
+    font-weight: bold;
 }
