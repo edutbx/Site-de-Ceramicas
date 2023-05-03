@@ -14,10 +14,10 @@
         <div class="container">
             <div class="div1">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia porro provident tenetur odio minus blanditiis ea, non asperiores delectus corporis doloremque doloribus. Ipsa dicta, non alias explicabo repudiandae excepturi commodi.
+                    Xícaras do Eduardo
                 </p>
             </div>
-            <img src="img/copos.JPG" alt="copos" width="44%">
+            <img src="img/copos.JPG" alt="copos" width="44%" class="redondo">
         </div>
 
         <div class="containerp">
@@ -30,16 +30,33 @@
         </div>
 
         <div class="banner">
-            <img src="img/bonecos.jpg" alt="" height="300px" class="image">
-            <img src="img/svg/de-coracao.svg" alt="de-coracao" width="730px">
+            <img src="img/svg/de-coracao.svg" alt="de-coracao" width="900px" class="decoracao">
+            <img src="img/bonecos.jpg" alt="" height="400px" class="image">
         </div>
 
         <div class="cirilo">
+            <h1>Produtos</h1>
             <div class="produtos">
-                <div class="produto">p1</div>
-                <div class="produto">p2</div>
-                <div class="produto">p3</div>
-                <div class="produto">p4</div>
+                <div class="produto">
+                    <p>
+                        p1
+                    </p>
+                </div>
+                <div class="produto">
+                    <p>
+                        p2
+                    </p>
+                </div>
+                <div class="produto">
+                    <p>
+                        p3
+                    </p>
+                </div>
+                <div class="produto">
+                    <p>
+                        p4
+                    </p>
+                </div>
             </div>
             <button>ver mais</button>
         </div>

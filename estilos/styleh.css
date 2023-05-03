@@ -12,8 +12,8 @@
 }
 
 header {
-    border-bottom: 3px solid black;
     padding: 10px;
+    background-color: white;
 }
 
 .formzera {
@@ -24,7 +24,7 @@ header {
 }
 
 body {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 main {
@@ -76,7 +76,6 @@ footer {
     bottom: 0;
     background-color: white;
     color: rgb(0, 0, 0);
-    border-top: 3px solid black;
 }
 
 .main-fut {

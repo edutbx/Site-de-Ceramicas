@@ -1,17 +1,28 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+}
+
+main{
+    margin: 60px;
+}
+
 .container{
     display: flex;
     justify-content: end;
     flex-direction: row;
     height: auto;
-    background-color:#5ea083 ;
+    background-color: rgba(0, 0, 128, 0);
+    color: 5ea083;
+    font-family: 'Belleza', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 .containerp{
     padding: 50px 0px;
     height: auto;
-    background-color:#ffffff ;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 .containerp h1{
     font-family: 'Belleza', sans-serif;
@@ -28,6 +39,7 @@
     flex-direction: row;
     height: auto;
     background-color:#e29ca8 ;
+    border-radius: 150px;
 }
 
 .cirilo {
@@ -35,23 +47,35 @@
     align-items: center;
     flex-direction: column;
     height: auto;
-    padding: 10px 0px;
+    padding: 70px 0px;
 }
 
 .produtos {
+    padding: 10px 0px;
     width: 65%;
     display: flex;
     justify-content: space-around;
+    color: black;
+}
+.produto{
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .div1{
     width: 56%;
     border: 0px solid black;
+    display: flex;
+    align-items: center;
 }
 .div1 p{
-    padding-left: 10px;
-    padding-right: 20px;
+    padding: 0px 80px;
     text-align: center;
+    font-size: 30px
 }
 
 .div2{
@@ -60,6 +84,15 @@
 }
 
 .image{
-    border-radius: 10px;
+    border-radius: 100px;
     margin: auto;
+}
+
+.decoracao{
+    border-top-left-radius: 150px;
+    border-end-start-radius: 150px;
+}
+
+.redondo{
+    border-radius: 150px;
 }
