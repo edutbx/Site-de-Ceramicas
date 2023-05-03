@@ -2,15 +2,15 @@
     <div class="mains">
             <div class="row">
                 <section class="foto">
-                <img src="img/enfeite1.jpg" alt="enfeite1" width="200px" height="220px">
+                <img src="img/enfeite1.png" alt="enfeite1" width="200px" height="220px">
                 <p>teste</p>
                 </section>
                 <section class="foto">
-                <img src="img/enfeite2.jpg" alt="enfeite2" width="200px" height="220px">
+                <img src="img/enfeite2.png" alt="enfeite2" width="200px" height="220px">
                 <p>teste</p>
                 </section>
                 <section class="foto">
-                <img src="img/enfeite3.jpg" alt="colar3" width="200px" height="220px">
+                <img src="img/enfeite3.png" alt="colar3" width="200px" height="220px">
                 <p>teste</p>
                 </section>
                 <section class="foto">
@@ -25,14 +25,6 @@
                 </section>
                 <section class="foto">
                 <img src="img/colar2.jpg" alt="colar2" width="200px" height="220px">
-                <p>teste</p>
-                </section>
-                <section class="foto">
-                <img src="img/colar3.jpg" alt="colar3" width="200px" height="220px">
-                <p>teste</p>
-                </section>
-                <section class="foto">
-                <img src="img/bonecos.jpg" alt="bonecos" width="200px" height="220px">
                 <p>teste</p>
                 </section>
             </div>
