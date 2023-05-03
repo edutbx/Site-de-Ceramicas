@@ -30,8 +30,8 @@
         </div>
 
         <div class="banner">
-            <img src="img/svg/de-coracao.svg" alt="de-coracao" width="900px" class="decoracao">
-            <img src="img/bonecos.jpg" alt="" height="400px" class="image">
+            <img src="img/svg/de-coracao.svg" alt="de-coracao" width="62%" class="decoracao">
+            <img src="img/bonecos.jpg" alt="" width="30%" class="image">
         </div>
 
         <div class="cirilo">
