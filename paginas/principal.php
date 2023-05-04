@@ -36,29 +36,43 @@
 
         <div class="cirilo">
             <h1>Produtos</h1>
-            <div class="produtos">
-                <div class="produto">
-                    <p>
-                        p1
-                    </p>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="img/colar2.jpg" alt="imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="img/brinco1.jpg" alt="imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="img/enfeite1.png" alt="imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="img/outros1.jpg" alt="imagem 4">
+                    </div>
+
+                    <div class="manual-navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
                 </div>
-                <div class="produto">
-                    <p>
-                        p2
-                    </p>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"> </label>
+                    <label for="radio2" class="manual-btn"> </label>
+                    <label for="radio3" class="manual-btn"> </label>
+                    <label for="radio4" class="manual-btn"> </label>
                 </div>
-                <div class="produto">
-                    <p>
-                        p3
-                    </p>
-                </div>
-                <div class="produto">
-                    <p>
-                        p4
-                    </p>
-                </div>
+
             </div>
-            <button>ver mais</button>
+            <script src="script.js"></script>
         </div>
     </main>
 </body>
