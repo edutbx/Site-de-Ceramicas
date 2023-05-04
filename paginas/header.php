@@ -15,6 +15,5 @@
             <input type="submit" name="acao" value="Brincos" class="button">
             <input type="submit" name="acao" value="Enfeites" class="button">
             <input type="submit" name="acao" value="Outros" class="button">
-            <input type="search" placeholder=" Pesquisar" name="pesquisa" class="pesquisa">
         </form>
     </header>

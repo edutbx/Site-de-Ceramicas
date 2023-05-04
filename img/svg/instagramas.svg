@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Camada_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 274.6 276.1"
+   style="enable-background:new 0 0 274.6 276.1;"
+   xml:space="preserve"
+   sodipodi:docname="instagramas.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs36" /><sodipodi:namedview
+   id="namedview34"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="1.7276349"
+   inkscape:cx="137.18176"
+   inkscape:cy="138.33942"
+   inkscape:window-width="1280"
+   inkscape:window-height="657"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Camada_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+
+<g
+   id="g17">
+	<radialGradient
+   id="SVGID_1_"
+   cx="48.5563"
+   cy="261.5727"
+   r="311.4006"
+   gradientUnits="userSpaceOnUse">
+		<stop
+   offset="0"
+   style="stop-color:#FBBF54"
+   id="stop6" />
+		<stop
+   offset="0.3273"
+   style="stop-color:#E62A42"
+   id="stop8" />
+		<stop
+   offset="0.6485"
+   style="stop-color:#A04091"
+   id="stop10" />
+		<stop
+   offset="1"
+   style="stop-color:#494D9B"
+   id="stop12" />
+	</radialGradient>
+	<path
+   class="st0"
+   d="M265,223c0,23.1-18.9,42-42,42h-174c-23.1,0-42-18.9-42-42V49c0-23.1,18.9-42,42-42h174c23.1,0,42,18.9,42,42   V223z"
+   id="path15" />
+</g>
+<g
+   id="g31">
+	<g
+   id="g21">
+		<path
+   class="st1"
+   d="M181.7,242.2H90.2c-33.3,0-60.5-27.1-60.5-60.5V90.3c0-33.3,27.1-60.5,60.5-60.5h91.5    c33.3,0,60.5,27.1,60.5,60.5v91.5C242.2,215.1,215.1,242.2,181.7,242.2z M90.2,48c-23.3,0-42.3,19-42.3,42.3v91.5    c0,23.3,19,42.3,42.3,42.3h91.5c23.3,0,42.3-19,42.3-42.3V90.3C224,67,205,48,181.7,48H90.2z"
+   id="path19" />
+	</g>
+	<g
+   id="g25">
+		<path
+   class="st1"
+   d="M136,190.4c-30,0-54.4-24.4-54.4-54.4c0-30,24.4-54.4,54.4-54.4c30,0,54.4,24.4,54.4,54.4    C190.4,166,165.9,190.4,136,190.4z M136,99.8c-20,0-36.2,16.2-36.2,36.2s16.2,36.2,36.2,36.2c20,0,36.2-16.2,36.2-36.2    S155.9,99.8,136,99.8z"
+   id="path23" />
+	</g>
+	<g
+   id="g29">
+		<path
+   class="st1"
+   d="M205.8,78.5c0,7.2-5.9,13.1-13.1,13.1c-7.2,0-13.1-5.9-13.1-13.1c0-7.2,5.9-13.1,13.1-13.1    C199.9,65.4,205.8,71.3,205.8,78.5z"
+   id="path27" />
+	</g>
+</g>
+</svg>

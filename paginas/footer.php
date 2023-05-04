@@ -20,9 +20,9 @@
             <div class="direita">
                 <div class="item">
                     <p class="linha">Sobre</p>
-                    <p> 1 linha</p>
-                    <p> 2 linha</p>
-                    <p> 3 linha</p>
+                    <p>Cerâmicas Biju</p>
+                    <p>Dona</p>
+                    <p>Desenvolvedores do site</p>
                 </div>
                 <div class="item">
                     <p class="linha">Incentive-nos</p>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <p class="end">Endereço blá blá blá</p>
+        <p class="end">Faça encomendas!</p>
     </footer>
 
 </body>
