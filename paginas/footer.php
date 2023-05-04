@@ -1,5 +1,8 @@
     <footer>
         <div class="main-fut">
+            <div class="ocultlogo">
+                <img src="img/logo.svg" class="imgf">
+            </div>
             <div class="esquerda">
                 <div class="item">
                     <p class="linha">Fale conosco</p><br>

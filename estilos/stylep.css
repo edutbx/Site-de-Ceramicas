@@ -202,3 +202,18 @@ main{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #FFF;
 }
+
+/*MEDIAS QUERIES*/
+@media screen and (max-width: 860px) {
+    .slider{
+        width: 400px;
+    }
+
+    .manual-navigation{
+        width: 400px;
+    }
+
+    .navigation-auto{
+        width: 400px;
+    }
+}

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ysabeau&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
-@media (max-width: 414px) {
-    header {
-        background-color: aliceblue;
-    }
-
-}
 
 * {
     margin: 0;
@@ -89,6 +83,10 @@ footer {
 
 }
 
+.ocultlogo{
+    display: none;
+}
+
 .esquerda {
     height: 300px;
     width: 300px;
@@ -135,4 +133,46 @@ footer {
 .imgzap{
    display: flex;
    justify-content: center;
+}
+
+/*MEDIAS QUERIES*/
+@media screen and (max-width: 840px) {
+    .esquerda {
+        width: 200px;
+    }
+    
+    .direita {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main-fut {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+    }
+
+    .esquerda {
+        width: 85%;
+    }
+
+    .imgzap{
+        justify-content: left;
+     }
+
+    .meio{
+        display: none;
+    }
+
+    .ocultlogo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .direita {
+        width: 85%;
+    }
 }
