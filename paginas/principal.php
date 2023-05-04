@@ -14,7 +14,7 @@
         <div class="container">
             <div class="div1">
                 <p>
-                    Xícaras do Eduardo
+                "A cerâmica é uma forma de arte que nos conecta com a história e a cultura, além de trazer beleza e sofisticação para qualquer ambiente"
                 </p>
             </div>
             <img src="img/copos.JPG" alt="copos" width="44%" class="redondo">
