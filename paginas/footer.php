@@ -30,9 +30,9 @@
                 </div>
                 <div class="item">
                     <p class="linha">Incentive-nos</p>
-                    <p> 1 linha</p>
-                    <p> 2 linha</p>
-                    <p> 3 linha</p>
+                    <a href="pix.eduardo.com">
+                        <img src="img/svg/mercado.svg" alt="mercado pago">
+                    </a>
                 </div>
             </div>
         </div>
