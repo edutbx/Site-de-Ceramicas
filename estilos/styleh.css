@@ -113,10 +113,16 @@ footer {
 }
 
 .foto {
-    border: 1px solid black;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 10px;
     margin-bottom: 10px;
     text-align: center;
     transition-duration: 0.1s;
+}
+
+.foto-redonda{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .foto:hover {
