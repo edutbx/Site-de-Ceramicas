@@ -35,7 +35,7 @@
         </div>
 
         <div class="cirilo">
-            <h1>Produtos</h1>
+            <h1>Produtos</h1><br><br>
             <div class="slider">
                 <div class="slides">
                     <input type="radio" name="radio-btn" id="radio1">
@@ -50,13 +50,13 @@
                         <img src="img/brinco1.jpg" alt="imagem 2">
                     </div>
                     <div class="slide">
-                        <img src="img/enfeite1.png" alt="imagem 3">
+                        <img src="img/enfeite3.png" alt="imagem 3">
                     </div>
                     <div class="slide">
-                        <img src="img/outros1.jpg" alt="imagem 4">
+                        <img src="img/outros5.jpg" alt="imagem 4">
                     </div>
 
-                    <div class="manual-navigation-auto">
+                    <div class="navigation-auto">
                         <div class="auto-btn1"></div>
                         <div class="auto-btn2"></div>
                         <div class="auto-btn3"></div>
@@ -70,9 +70,9 @@
                     <label for="radio3" class="manual-btn"> </label>
                     <label for="radio4" class="manual-btn"> </label>
                 </div>
-
+                
             </div>
-            <script src="script.js"></script>
+            <script src="paginas/js.js"></script>
         </div>
     </main>
 </body>

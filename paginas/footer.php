@@ -2,16 +2,20 @@
         <div class="main-fut">
             <div class="esquerda">
                 <div class="item">
-                    <p class="linha">Fale conosco</p>
-                    <p> 1 linha</p>
-                    <p> 2 linha</p>
-                    <p> 3 linha</p>
+                    <p class="linha">Fale conosco</p><br>
+                    <div class="imgzap">
+                        <a href="https://wa.me/11953633037">
+                            <img src="img/svg/zap.svg" width="60px">
+                        </a>
+                    </div>
                 </div>
                 <div class="item">
-                    <p class="linha">Redes Sociais</p>
-                    <p> 1 linha</p>
-                    <p> 2 linha</p>
-                    <p> 3 linha</p>
+                    <p class="linha">Redes Sociais</p><br>
+                    <div class="imgzap">
+                        <a href="https://www.instagram.com/ceramicas_biju/">
+                            <img src="img/svg/instagramas.svg" width="60px">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="meio">
@@ -35,6 +39,6 @@
         <p class="end">Faça encomendas!</p>
     </footer>
 
-</body>
+    </body>
 
-</html>
+    </html>
