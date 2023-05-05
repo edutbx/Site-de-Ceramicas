@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="estilos/stylep.css">
     <title>Document</title>
 </head>
-
 <body>
     <main>
         <div class="container">

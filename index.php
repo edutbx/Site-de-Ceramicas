@@ -4,20 +4,27 @@ include 'paginas/header.php';
 
 $acao = filter_input(INPUT_POST, 'acao');
 
-if($acao == "Colares"){
+if ($acao == "Colares") {
     include 'paginas/colares.php';
-}else if($acao == "Brincos"){
+    $edu = "colares";
+} else if ($acao == "Brincos") {
     include 'paginas/brincos.php';
-}else if($acao == "Enfeites"){
+    $edu = "brincos";
+} else if ($acao == "Enfeites") {
     include 'paginas/enfeites.php';
-}else if($acao == "Outros"){
+    $edu = "enfeites";
+} else if ($acao == "Outros") {
     include 'paginas/outros.php';
-}else if($acao == "Criadora"){
+    $edu = "enfeites";
+} else if ($acao == "Criadora") {
     include 'paginas/cria.php';
-}else if($acao == "Desenvolvedores do site"){
+} else if ($acao == "Desenvolvedores do site") {
     include 'paginas/devs.php';
-}else{
+} else if ($acaoo == "menu") {
+    
+} else {
     include 'paginas/principal.php';
+    $edu = "principal";
 }
 
 
