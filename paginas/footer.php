@@ -28,14 +28,21 @@
                 <div class="item">
                     <p class="linha">Sobre</p>
                     <p>Cerâmicas Biju</p>
-                    <p>Dona</p>
-                    <p>Desenvolvedores do site</p>
+                    <p><a href="#" class="aspagboa">Criadora</p></a>
+
+                    <!-- Uma mulher apaixonada por cerâmicas que ama o que faz. Possui anos de experiência e resolveu espalhar a sua arte e transimitir essa paixão incrível. -->
+
+                     <!-- O site foi desenvolvido por estudantes do 3° módulo do curso técnico de Infomática para a internet da Etec JK. -->
+                    <!-- DESENVOLVIDO POR: Eduardo e Igor -->
+
+                    <p><a href="#" class="aspagboa">do site</p></a>
                 </div>
                 <div class="item">
                     <p class="linha">Incentive-nos</p>
-                    <a href="pix.eduardo.com">
+                    <a href="http://mpago.li/2GkEJNq">
                         <img src="img/svg/mercado.svg" alt="mercado pago">
-                    </a>
+                    </a><br>
+                    <p>PIX: edutbxpix@gmail.com</p>
                 </div>
             </div>
         </div>

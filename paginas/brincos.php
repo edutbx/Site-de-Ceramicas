@@ -7,8 +7,7 @@
                 </section>
                 <section class="foto">
                 <img src="img/brinco2.jpg" alt="brinco2" width="200px" height="220px" class="foto-redonda">
-                <p>Brincos quadrado-triangulo</p> 
-                <p>turquesa</p>
+                <p>Brincos flor</p>
                 </section>
                 <section class="foto">
                 <img src="img/brinco3.jpg" alt="brinco3" width="200px" height="220px" class="foto-redonda">
@@ -37,7 +36,7 @@
                 </section>
                 <section class="foto">
                 <img src="img/brinco8.jpg" alt="brinco8" width="200px" height="220px" class="foto-redonda">
-                <p>Birncos redondo-branco</p>
+                <p>Brincos redondo-branco</p>
                 </section>
             </div>
     </div>
