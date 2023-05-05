@@ -90,6 +90,18 @@ footer {
     width: 300px;
 }
 
+.link{
+    padding: 5px 0px;
+    border: 0px solid black;
+    font-size: 18px;
+}
+.link:hover{
+    background-color: #AFEEEE;
+    transition: 0.8s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .item {
     height: 150px;
 }
@@ -140,6 +152,10 @@ footer {
    justify-content: center;
 }
 
+.hideb{
+    display: none;
+}
+
 /*MEDIAS QUERIES*/
 @media screen and (max-width: 840px) {
     .esquerda {
@@ -179,5 +195,93 @@ footer {
     
     .direita {
         width: 85%;
+    }
+}
+
+@media screen and (max-width: 560px){
+    input {
+        flex-grow: 0;
+        margin: 0px 0px;
+        font-size: 28px;
+    }
+    .formzera {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .button{
+        display: none;
+    }
+    .hideb{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 0px solid black;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .hideb:hover{
+        background-color: #AFEEEE;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+    }
+
+    .formi{
+        display: flex;
+        align-items: center;
+    }
+
+    .barra{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Ysabeau', sans-serif;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        z-index: 2;
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        width: 150px;
+        height: 95vh;
+        padding: 20px 20px;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.479);
+    }
+
+    .barra ul{
+        list-style: none;
+    }
+
+    .barra li{
+        font-size: 18px;
+        border-radius: 5px;
+        transition: 0.7s;
+    }
+    .barra li:hover{
+        background-color: #AFEEEE;
+        cursor: pointer;
+    }
+
+    .barra a{
+        border-radius: 5px;
+        padding: 5px 5px;
+        display: block;
+        text-decoration-line: none;
+        color: black;
+        width: 100%;
+    }
+
+    .fechar{
+        font-size: 20px;
+        font-weight: bold;
+        border: 0px solid black;
+        border-radius: 5px;
     }
 }

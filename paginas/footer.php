@@ -27,15 +27,11 @@
             <div class="direita">
                 <div class="item">
                     <p class="linha">Sobre</p>
-                    <p>Cerâmicas Biju</p>
-                    <p><a href="#" class="aspagboa">Criadora</p></a>
-
-                    <!-- Uma mulher apaixonada por cerâmicas que ama o que faz. Possui anos de experiência e resolveu espalhar a sua arte e transimitir essa paixão incrível. -->
-
-                     <!-- O site foi desenvolvido por estudantes do 3° módulo do curso técnico de Infomática para a internet da Etec JK. -->
-                    <!-- DESENVOLVIDO POR: Eduardo e Igor -->
-
-                    <p><a href="#" class="aspagboa">do site</p></a>
+                    <form action="index.php" method="post">
+                        <input type="submit" value="Cerâmicas Biju" name="acao" class="link"><br>
+                        <input type="submit" value="Criadora" name="acao" class="link"><br>
+                        <input type="submit" value="Desenvolvedores do site" name="acao" class="link">
+                    </form>
                 </div>
                 <div class="item">
                     <p class="linha">Incentive-nos</p>

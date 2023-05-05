@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="estilos/styleh.css">
     <meta charset="UTF-8">
@@ -7,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oi igor</title>
 </head>
+
 <body>
     <header>
         <form action="index.php" method="post" class="formzera">
@@ -16,4 +18,15 @@
             <input type="submit" name="acao" value="Enfeites" class="button">
             <input type="submit" name="acao" value="Outros" class="button">
         </form>
+        <form action="" method="post" class="formi">
+            <button type="submit" name="acaoo" value="menu" class="hideb">
+                <img src="img/svg/menu.svg" alt="menu">
+            </button>
+        </form>
+        <?php
+        $acaoo = filter_input(INPUT_POST, 'acaoo');
+        if ($acaoo == "menu") {
+            include 'barra-lateral.php';
+        }
+        ?>
     </header>

@@ -1,0 +1,1 @@
+    Uma mulher apaixonada por cerâmicas que ama o que faz. Possui anos de experiência e resolveu espalhar a sua arte e transimitir essa paixão incrível.

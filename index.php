@@ -12,6 +12,10 @@ if($acao == "Colares"){
     include 'paginas/enfeites.php';
 }else if($acao == "Outros"){
     include 'paginas/outros.php';
+}else if($acao == "Criadora"){
+    include 'paginas/cria.php';
+}else if($acao == "Desenvolvedores do site"){
+    include 'paginas/devs.php';
 }else{
     include 'paginas/principal.php';
 }
