@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    margin: 100px 60px 60px;
+    margin: 140px 60px 60px;
 }
 
 .container {
@@ -79,7 +79,7 @@ main {
 }
 
 .div1 p {
-    padding: 0px 20px;
+    padding: 0px 20px 0px 0px;
     font-size: 30px
 }
 

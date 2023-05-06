@@ -1,5 +1,6 @@
 
 <main>
+    <h1>Colares</h1>
     <div class="mains">
         <div class="row">
             <section class="foto">
@@ -53,6 +54,9 @@
                 <img src="img/colar11.jpg" alt="colar11" width="200px" height="220px" class="foto-redonda">
                 <p>Colar difusor de</p>
                 <p>óleo essencial laranja</p>
+            </section>
+            <section class="foto2">
+                
             </section>
         </div>
     </div>

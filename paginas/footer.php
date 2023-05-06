@@ -42,6 +42,7 @@
                 </div>
             </div>
         </div>
+        <br>
         <p class="end">Faça encomendas!</p>
     </footer>
 

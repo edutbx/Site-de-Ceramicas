@@ -7,9 +7,14 @@
 }
 
 header {
-    padding: 5px;
+    padding: 5px 0px;
     background-color: white;
     box-shadow: 0px 0px 30px 0px #549B7E;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -26,7 +31,15 @@ body {
 
 main {
     min-height: calc(100vh - 100px);
+    margin-top: 140px;
     /* altura mínima é a altura da viewport (100vh) menos 100px para o footer */
+}
+main h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 50px;
+    font-size: 35px;
 }
 
 input {
@@ -69,10 +82,7 @@ footer {
 }
 
 .mains {
-    margin: 0px 190px;
-    margin-right: 190px;
-    margin-left: 200px;
-    margin-top: 30px;
+    margin: 10px 190px 140px;
     padding: 20px 0px;
 }
 
@@ -115,15 +125,27 @@ footer {
 .row {
     display: flex;
     justify-content: space-around;
+    padding: 20px 0px;
 }
 
 .foto {
+    width: 200px;
+    height: 280px;
     box-shadow: 2px 2px 4px grey;
     border-radius: 10px;
     margin-bottom: 10px;
     text-align: center;
     transition-duration: 0.1s;
     background-color: white;
+}
+.foto2 {
+    width: 200px;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition-duration: 0.1s;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .texto-foto{
@@ -143,7 +165,8 @@ footer {
 }
 
 .end {
-    padding: 10px 0px;
+    text-align: center;
+    padding: 15px 0px;
     font-weight: bold;
 }
 
@@ -161,7 +184,43 @@ footer {
 }
 
 /*MEDIAS QUERIES*/
+@media screen and (max-width: 1389px){
+    .mains {
+        margin: 10px 110px 140px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .mains {
+        margin: 10px 60px 140px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .mains {
+        margin: 10px 20px 140px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .mains {
+        margin: 10px 80px 140px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .row {
+        flex-direction: column;
+        justify-content: left;
+    }
+    .foto{
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 840px) {
+    .mains {
+        margin: 10px 40px 140px;
+    }
     .esquerda {
         width: 200px;
     }
@@ -170,6 +229,29 @@ footer {
         width: 200px;
     }
 }
+
+@media screen and (max-width: 740px) {
+    .mains {
+        margin: 10px 80px 140px;
+        display: block;
+    }
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .foto{
+        margin-bottom: 20px;
+        width: 400px;
+        height: 560px;
+    }
+    .foto-redonda{
+        width: 400px;
+        height: 520px;
+    }
+}
+
 
 @media screen and (max-width: 640px) {
     .main-fut {
@@ -236,10 +318,6 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 5px 20px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
         width: 94%;
     }
 
@@ -259,8 +337,8 @@ footer {
         z-index: 2;
         background-color: rgb(255, 255, 255);
         color: #000000;
-        width: 150px;
-        height: 250px;
+        width: 160px;
+        height: 260px;
         padding: 20px 20px;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.479);
     }
@@ -270,22 +348,30 @@ footer {
     }
 
     .barra li{
-        font-size: 18px;
+        padding: 5px 0px;
         border-radius: 5px;
         transition: 0.7s;
     }
-    .barra li:hover{
-        background-color: #AFEEEE;
-        cursor: pointer;
-    }
 
-    .barra a{
+    .barra button{
         border-radius: 5px;
         padding: 5px 5px;
         display: block;
         text-decoration-line: none;
         color: black;
         width: 100%;
+        background-color: white;
+        border: 0px solid black;
+        font-size: 18px;
+    }
+    .barra button:hover{
+        background-color: #AFEEEE;
+        cursor: pointer;
+    }
+
+    .barra form{
+        display: flex;
+        flex-direction: column;
     }
 
     .fechar{
@@ -293,5 +379,27 @@ footer {
         font-weight: bold;
         border: 0px solid black;
         border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .foto{
+        width: 300px;
+        height: 420px;
+    }
+    .foto-redonda{
+        width: 300px;
+        height: 385px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .foto{
+        width: 200px;
+        height: 280px;
+    }
+    .foto-redonda{
+        width: 200px;
+        height: 245px;
     }
 }
