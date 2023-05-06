@@ -18,15 +18,22 @@
             <input type="submit" name="acao" value="Enfeites" class="button">
             <input type="submit" name="acao" value="Outros" class="button">
         </form>
-        <form action="" method="post" class="formi">
-            <button type="submit" name="acaoo" value="menu" class="hideb">
-                <img src="img/svg/menu.svg" alt="menu">
-            </button>
-        </form>
-        <?php
-        $acaoo = filter_input(INPUT_POST, 'acaoo');
-        if ($acaoo == "menu") {
-            include 'barra-lateral.php';
-        }
-        ?>
+        <button type="submit" name="acaoo" value="menu" class="hideb">
+            <img src="img/svg/menu.svg" alt="menu">
+        </button>
+        <div class="barra">
+            <ul>
+                <h1>Menu</h1>
+                <li><a href="#">Colares</a></li>
+                <li><a href="#">Brincos</a></li>
+                <li><a href="#">Enfeites</a></li>
+                <li><a href="#">Outros</a></li>
+                <input type="submit" name="acao" value="Colares" class="button">
+                <input type="submit" name="acao" value="Brincos" class="button">
+                <input type="submit" name="acao" value="Enfeites" class="button">
+                <input type="submit" name="acao" value="Outros" class="button">
+            </ul>
+            <input type="submit" name="acaoo" value="Fechar" class="fechar">
+        </div>
+        <script src="paginas/menu.js"></script>
     </header>

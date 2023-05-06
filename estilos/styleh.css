@@ -156,6 +156,10 @@ footer {
     display: none;
 }
 
+.barra{
+    display: none;
+}
+
 /*MEDIAS QUERIES*/
 @media screen and (max-width: 840px) {
     .esquerda {
@@ -230,6 +234,7 @@ footer {
     header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 5px 20px;
         position: fixed;
         z-index: 1;
@@ -244,12 +249,12 @@ footer {
     }
 
     .barra{
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: space-between;
         font-family: 'Ysabeau', sans-serif;
         position: fixed;
-        right: 20px;
+        right: 10px;
         top: 80px;
         z-index: 2;
         background-color: rgb(255, 255, 255);
