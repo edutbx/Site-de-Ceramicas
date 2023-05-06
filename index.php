@@ -16,6 +16,8 @@ if ($acao == "Colares") {
     include 'paginas/cria.php';
 } else if ($acao == "Desenvolvedores do site") {
     include 'paginas/devs.php';
+} else if ($acao == "Cerâmicas Biju") {
+    include 'paginas/sobre-ceb.php';
 } else {
     include 'paginas/principal.php';
 }
