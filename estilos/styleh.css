@@ -107,7 +107,7 @@ footer {
 }
 .link:hover{
     background-color: #AFEEEE;
-    transition: 0.8s;
+    transition: 0.5s;
     border-radius: 5px;
     cursor: pointer;
 }
