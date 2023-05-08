@@ -7,7 +7,7 @@
                 <div class="item">
                     <p class="linha">Fale conosco</p><br>
                     <div class="imgzap">
-                        <a href="https://wa.me/11953633037">
+                        <a href="https://wa.me/11953633037" target="_blank">
                             <img src="img/svg/zap.svg" width="60px">
                         </a>
                     </div>
@@ -15,7 +15,7 @@
                 <div class="item">
                     <p class="linha">Redes Sociais</p><br>
                     <div class="imgzap">
-                        <a href="https://www.instagram.com/ceramicas_biju/">
+                        <a href="https://www.instagram.com/ceramicas_biju/" target="_blank">
                             <img src="img/svg/instagramas.svg" width="60px">
                         </a>
                     </div>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="item">
                     <p class="linha">Incentive-nos</p>
-                    <a href="http://mpago.li/2GkEJNq">
+                    <a href="http://mpago.li/2GkEJNq" target="_blank">
                         <img src="img/svg/mercado.svg" alt="mercado pago">
                     </a><br>
                     <p>PIX: edutbxpix@gmail.com</p>

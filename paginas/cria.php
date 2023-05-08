@@ -11,49 +11,36 @@
 
     .main-div {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        width: 100%;
         height: 600px;
-        margin-bottom: 40px;
+        padding: 10px;
+        margin: 40px;
+        font-family: 'Poppins', sans-serif;
         font-weight: bold;
         text-align: justify;
     }
 
-    .div1 {
-        font-size: 16px;
-        border-radius: 10px;
-        width: 40%;
-        transition: 1s;
-        background: linear-gradient(to bottom right, #A3C6B3, #E7D2AD);
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 5px 5px 5px gray;
-        
+    .d1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .div1:hover {
-        box-shadow: none;
-    }
-
-    .div2 {
-        background-color: green;
-    }
-
-    h1 {
-        text-align: center;
-        padding-top: 40px;
+    .d2 {
+        width: 50%;
+        color: white;
+        padding: 10px;
     }
 </style>
 <div class="div-header"></div>
-<h1>
-    <p style="color: white;">CRIADORA</p>
-</h1>
 <div class="main-div">
-    <div class="div1">
+    <div class="d1">
+            <img src="img/fotocriadora.jpg" alt="sim" width="96%">
+    </div>
+    <div class="d2">
+        <h1 style="color: white;">
+            CRIADORA
+        </h1>
         <p>
             Conheça a história de uma mulher talentosa e apaixonada por arte. Ela descobriu sua paixão por fazer bijuterias de cerâmica há alguns anos e desde então tem se dedicado incansavelmente a aprimorar suas habilidades e criar peças únicas e deslumbrantes.
         </p><br>
