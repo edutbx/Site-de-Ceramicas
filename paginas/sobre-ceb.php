@@ -31,24 +31,33 @@
         color: white;
         padding: 10px;
     }
+
+    img{
+        border-radius: 20px;
+    }
 </style>
 <div class="div-header"></div>
 <div class="main-div">
     <div class="d1">
-        <img src="https://img.freepik.com/fotos-premium/uma-lampada-esta-sobre-uma-mesa-com-fundo-dourado_755913-6090.jpg?w=740" alt="sim" width="96%">
+        <img src="img/ideia.png" alt="sim" width="96%">
     </div>
     <div class="d2">
         <h1 style="color: white;">
             SOBRE NÓS
         </h1>
         <p>
-            como comecou
-            o que usa
-            qm faz
-            equipamentos
-
-        <p>
-            DESENVOLVIDO POR: Eduardo e Igor
+            "Após eu me aposentar, resolvi experimentar fazer um curso de cerâmica e me apaixonei. Eu nunca tinha esse foco de ser artesã, mas fui me descobrindo no processo. Hoje gosto muito do que faço, o que a princípio era um <i>hobbie</i> acabou se transfomando em um negócio. Atualmente participo de enventos, feiras e realizo encomendas.
         </p>
+        <p>
+            A matéria prima é a massa cerâmica. Os acessórios são ferramentas própias e alguma adaptadas para a realização do trabalho. A decoração é feita com engobes, tintas e esmalte cerâmico. Depois que as peças são confeccionadas, elas preciasam de duas queimas em fornos específicos para cerâmica.
+        </p><br>
+        <p>
+        De sua artista,
+        </p>
+        <p>
+        Lígia"
+        </p>
+
+
     </div>
 </div>
