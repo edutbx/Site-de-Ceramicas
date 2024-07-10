@@ -57,10 +57,5 @@
         <p>
             Não há nada mais gratificante do que seguir sua paixão e ver os frutos do seu trabalho. E é exatamente isso que essa mulher está fazendo. Ela está seguindo sua paixão, criando arte e trazendo beleza e felicidade para as pessoas. Não é apenas sobre as bijuterias, é sobre a paixão, dedicação e amor que ela coloca em cada peça. É sobre a história e a personalidade que cada bijuteria carrega consigo.
         </p><br>
-
-
-        <p>
-            Se você ainda não teve a oportunidade de ver o trabalho incrível dessa mulher, não perca mais tempo. Venha conhecer suas criações e deixe-se encantar pela sua história e sua arte. Você não irá se arrepender."
-        </p><br>
     </div>
 </div>
